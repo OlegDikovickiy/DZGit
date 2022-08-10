@@ -5,5 +5,6 @@ public class Main {
     SalesManager salesManager = new SalesManager(sales);
 
     System.out.println("Максимальное значение: " + salesManager.max());
+    System.out.println("Среднее значение продаж: " + salesManager.averageValue());
   }
 }
